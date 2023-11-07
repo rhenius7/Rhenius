@@ -2,8 +2,19 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
-      <h1>Name:Rhenius</h1>
+    <div
+      style={{
+        color: "red",
+        backgroundColor: "black",
+        height: "120px",
+        justifyContent: "center",
+        padding: "25px",
+        fontSize: "25px",
+      }}
+    >
+      <center>
+        <h1>LOGIN</h1>
+      </center>
     </div>
   );
 };

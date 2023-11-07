@@ -2,18 +2,43 @@ import React from "react";
 
 const Main = () => {
   return (
-    <div>
-      <hr></hr>
-      <label for="name">User name:</label>
-      <input type="text" id="name"></input>
-      <br></br>
-      <br></br>
-      <label for="pass">Password:</label>
-      <input type="password" id="pass"></input>
-      <br></br>
-      <br></br>
-      <button>Submit</button>
-      <hr></hr>
+    <div
+      style={{
+        fontSize: "40px",
+        color: "blue",
+        height: "200px",
+        padding: "150px",
+      }}
+    >
+      <center>
+        <label for="name">User name </label>
+        <input
+          type="text"
+          id="name"
+          style={{ height: "30px", width: "300px" }}
+        ></input>
+        <br></br>
+        <br></br>
+        <label for="pass">Password </label>
+        <input
+          type="password"
+          id="pass"
+          style={{ height: "30px", width: "300px" }}
+        ></input>
+        <br></br>
+        <br></br>
+        <button
+          style={{
+            height: "30px",
+            color: "green",
+            backgroundColor: "black",
+            width: "100px",
+            borderRadius: "30px",
+          }}
+        >
+          Submit
+        </button>
+      </center>
     </div>
   );
 };

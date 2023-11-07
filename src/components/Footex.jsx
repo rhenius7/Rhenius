@@ -2,7 +2,7 @@ import React from "react";
 
 const Footex = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "green" }}>
       <h4>@ Copyright 2003</h4>
     </div>
   );
