@@ -25,13 +25,8 @@ export default function ComboBox() {
 }
 const Fruits = [
   { label: "Apple", year: 1994 },
-  { label: "Orange", year: 1972 },
-  { label: "Strawberry", year: 1974 },
-  { label: "Pineapple", year: 2008 },
-  { label: "Guava", year: 1957 },
-  { label: "Grapes", year: 1993 },
-  { label: "Banana", year: 1994 },
-  { label: "JackFruit", year: 1994 },
-  { label: "WaterMelon", year: 1994 },
-  { label: "Plum", year: 1994 },
+  { label: "Banana", year: 1972 },
+  { label: "Cherry", year: 1974 },
+  { label: "Duarian", year: 2008 },
+  { label: "ElderBerry", year: 1957 },
 ];
