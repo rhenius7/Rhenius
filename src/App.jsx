@@ -1,19 +1,14 @@
-import GokuTrans from "./day3/components/GokuTrans";
 import Runs from "./day3/Runs";
-import ToggleMessage from "./day3/ToggleMessage";
+import Body from "./day3/cofeeShop/Body";
+import Header from "./day3/cofeeShop/Header";
+import Practice from "./materialUI/Practice";
+import Fruit from "./day4/classwork/Fruit";
 function App() {
-  return <Runs></Runs>;
-}
-
-/*function App() {
   return (
-    <div className="flex space-x-4 my-4">
-      <Button color="green">Green</Button>
-      <Button color="red">Red</Button>
-      <Button color="blue">Blue</Button>
-      <Button color="yellow">Yellow</Button>
+    <div>
+      <Fruit></Fruit>
     </div>
   );
-}*/
+}
 
 export default App;
